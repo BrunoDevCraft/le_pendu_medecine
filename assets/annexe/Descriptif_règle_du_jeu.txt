@@ -1,0 +1,51 @@
+Le Jeu du "Le_pendu_medecine_0.1.py"
+
+Ce fichier contient le code source d'un jeu du pendu implémenté en utilisant le module Pygame en Python via VS code. Voici une explication détaillée des règles du jeu et des fonctionnalités du code :
+
+I°) Initialisation :
+   - Le jeu débute par l'initialisation de Pygame, la définition des couleurs, et la création de la fenêtre du jeu.
+   - Les images du pendu, l'image de fond pour l'écran intermédiaire, et les images bonus sont chargées.
+   - La liste de mots est chargée à partir d'un fichier externe.
+
+II°) Variables du Jeu :
+   - Un mot aléatoire est sélectionné à partir de la liste chargée.
+   - Des variables de jeu sont initialisées, telles que le score, les lettres correctes et incorrectes, le nombre de tentatives, etc.
+   - La musique de fond et les effets sonores sont chargés et initialisés.
+
+III°) Boucle Principale :
+   - L'écran de titre est affiché au début.
+   - La boucle principale commence avec la gestion des événements Pygame.
+   - Pendant le jeu, le joueur peut entrer des lettres pour deviner le mot.
+   - Les images du pendu, le mot à deviner, la définition, et les lettres incorrectes sont affichés.
+   - Le jeu vérifie la victoire ou la défaite, affiche des messages appropriés, et permet au joueur de continuer ou de fermer le jeu.
+
+IV°) Écran Bonus :
+   - Un écran bonus est affiché après chaque 5 victoires.
+   - Le joueur peut choisir de passer au niveau suivant ou de fermer le jeu.
+
+V°) Fin du Jeu :
+   - Le jeu se termine lorsqu'il y a victoire, défaite ou si le joueur choisit de fermer le jeu.
+   - Les musiques de victoire ou de défaite sont jouées, et des écrans finaux sont affichés.
+
+VI°) Commandes :
+   - Le joueur peut entrer des lettres en majuscules ou en minuscules.
+   - Les boutons de la souris peuvent être utilisés pour naviguer dans les écrans intermédiaires.
+
+VII°) Remarques :
+   - Certains fichiers (images, sons) sont nécessaires pour le bon fonctionnement du jeu. 
+	PS: Ces fichiers ont été sélectionné sur les sites libre de droit et gratuit suivant:
+		Images:https://pixabay.com/fr/
+		       https://www.istockphoto.com/fr/
+		Sounds:https://pixabay.com/fr/
+		       
+   - L'écran bonus propose des options pour continuer ou fermer le jeu.
+   - Si vous désirez "personnaliser" les images, vous pouvez remplacer celles existante par les votres en les renommant:
+		- continue_00.jpg pour l'écran intermédiaire;
+		- niveau_01.jpg pour l'image bonus 1;
+		- niveau_02.jpg pour l'image bonus 2;
+		- niveau_03.jpg pour l'image bonus 3;
+		- niveau_04.jpg pour l'image bonus 4;
+		- niveau_05.jpg pour l'image bonus 5;
+		- niveau_06.jpg pour l'image bonus 6;
+		- fin_00.jpg pour l'image de defeat.
+

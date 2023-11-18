@@ -1,0 +1,54 @@
+Feuille de route du programme "Le_pendu_medecine_0.1.py"
+
+Le code présent est un jeu du pendu développé en utilisant la bibliothèque Pygame en Python sur VS code. Voici une description détaillée de la structure et des fonctionnalités du code:
+
+I°) Initialisation et Configuration (Lignes 1-31):
+
+	=> Importation des bibliothèques nécessaires (os, pygame, random, sys, textwrap).
+	=> Initialisation de Pygame et définition du framerate cible.
+	=> Définition des couleurs et de la taille de la fenêtre.
+	=> Chargement des images du pendu et de l'écran intermédiaire.
+	=> Chargement des images bonus.
+	=> Lecture de la liste de mots à partir d'un fichier texte.
+
+II°) Initialisation des Variables de Jeu (Lignes 33-74):
+
+	=> Sélection aléatoire d'un mot à deviner.
+	=> Initialisation des variables du jeu (score, lettres correctes/incorrectes, tentatives, etc.).
+	=> Configuration des variables pour gérer l'affichage (écran bonus, image "fin_00.jpg", nombre de vies, score, etc.).
+	
+III°) Configuration de la Police et des Surfaces de Texte (Lignes 76-101):
+
+	=> Configuration des polices et des surfaces de texte pour afficher le score et le nombre de vies.
+	=> Initialisation des surfaces de texte pour le score et l'affichage du nombre de vies dans la boucle principale.
+
+IV°) Configuration de la Musique (Lignes 103-117):
+
+	=> Initialisation et chargement de la musique de fond et des effets sonores de victoire/défaite.
+
+V°) Fonctions d'Affichage (Lignes 119-188):
+
+	=> display_fullscreen_message: Affiche un message de victoire ou de défaite en plein écran.
+	=> display_title_screen: Affiche l'écran de titre au lancement du jeu.
+	=> display_end_screen: Affiche l'écran de intermédiaire avec les options "Continuer" et "Fermer".
+
+VI°) Boucle Principale du Jeu (Lignes 190-335):
+
+	=> Gestion de l'affichage de l'écran de titre au début.
+	=> Boucle principale du jeu avec gestion des événements.
+	=> Gestion de la phase de jeu (deviner le mot) avec affichage du mot, de la définition, des lettres incorrectes, du pendu, etc.
+	=> Vérification des conditions de victoire ou de défaite.
+	=> Affichage des écrans de victoire/défaite et de l'écran bonus.
+	=> Gestion des événements de la souris pour les boutons "Continuer" et "Fermer".
+	=> Mise à jour de l'affichage à un framerate constant.
+
+VII°) Affichage de l'écran Bonus (Lignes 337-382):
+
+	=> Affichage de l'écran bonus après chaque 5 victoires.
+	=> Sélection aléatoire d'une image bonus.
+	=> Affichage du message et des boutons "OUI" et "NON".
+	=> Gestion des événements de la souris pour les boutons.
+
+VIII°) Fin du Jeu et Nettoyage (Lignes 384-391):
+
+	=> Arrêt de Pygame et sortie du programme à la fin du jeu.
