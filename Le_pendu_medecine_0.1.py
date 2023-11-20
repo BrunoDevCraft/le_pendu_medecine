@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # -*- coding: utf-8 -*-
 
 import os
@@ -25,26 +27,29 @@ win = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Jeu du Pendu")
 
 # Chargement des images du pendu (dans la boucle pour le rafraîchissement sur l'écran bonus)
-pendu_images = [pygame.image.load(f"assets/images/pendu{i}.png") for i in range(7)]
+script_dir = os.path.dirname(__file__)
+assets_dir = os.path.join(script_dir, 'assets')
+pendu_images = [pygame.image.load(os.path.join(assets_dir, f"images/pendu{i}.png")) for i in range(7)]
 
 # Chargez l'image de fond pour l'écran intermédiaire du choix
-bg_continue_screen = pygame.image.load("assets/images/Continue_00.jpg")
+bg_continue_screen_path = os.path.join(assets_dir, 'images/Continue_00.jpg')
+bg_continue_screen = pygame.image.load(bg_continue_screen_path)
 
 # Liste des images bonus
 bonus_images = [
-    "assets/images/niveau_01.jpg",
-    "assets/images/niveau_02.jpg",
-    "assets/images/niveau_03.jpg",
-    "assets/images/niveau_04.jpg",
-    "assets/images/niveau_05.jpg",
-    "assets/images/niveau_06.jpg",
+    os.path.join(assets_dir,"images/niveau_01.jpg"),
+    os.path.join(assets_dir,"images/niveau_02.jpg"),
+    os.path.join(assets_dir,"images/niveau_03.jpg"),
+    os.path.join(assets_dir,"images/niveau_04.jpg"),
+    os.path.join(assets_dir,"images/niveau_05.jpg"),
+    os.path.join(assets_dir,"images/niveau_06.jpg"),
 ]
 
 # Initialisez l'indice de l'image bonus actuelle
 current_bonus_index = 0
 
 # Chargement de la liste de mots à partir d'un fichier séparé
-with open(("assets/dictionnaire/mots.txt"), "r") as file:
+with open(os.path.join(assets_dir,"dictionnaire/mots.txt"), "r") as file:
     words = [line.strip().split(":") for line in file.readlines()]
 
 # Sélection d'un mot aléatoire parmi la liste du dictionnaire
@@ -93,9 +98,9 @@ pygame.mixer.music.load("assets/sounds/follow-the-leader-action-trailer-glitch-i
 pygame.mixer.music.set_volume(0.5)  # Réglez le volume selon vos besoins
 
 # Initialisation de la musique de victoire
-victory_sound = pygame.mixer.Sound("assets/sounds/happy-summer-long-10627.mp3")
+victory_sound = pygame.mixer.Sound(os.path.join(assets_dir,"sounds/happy-summer-long-10627.mp3"))
 # Chargement de la musique de défaite
-defeat_sound = pygame.mixer.Sound("assets/sounds/dramatic-atmosphere-with-piano-and-violin-143149.mp3")
+defeat_sound = pygame.mixer.Sound(os.path.join(assets_dir,"sounds/dramatic-atmosphere-with-piano-and-violin-143149.mp3"))
 
 # Jouez la musique de présentation en dehors de la boucle principale
 pygame.mixer.music.play(-1)  # -1 pour répéter en boucle
@@ -105,7 +110,7 @@ def display_fullscreen_message(message, game_over=False):
     win.fill(WHITE)
     
     # Affichez l'image de fin de jeu
-    game_image = pygame.image.load(f"assets/images/game_over.png") if game_over else pygame.image.load(f"assets/images/game_win.png")
+    game_image = pygame.image.load(os.path.join(assets_dir, f"images/game_over.png")) if game_over else pygame.image.load(os.path.join(assets_dir, f"images/game_win.png"))
     game_rect = game_image.get_rect(center=(WIDTH // 2, HEIGHT // 1.75))
     win.blit(game_image, game_rect.topleft)
     
@@ -127,7 +132,7 @@ def display_title_screen():
     win.blit(title_surface, (WIDTH // 2 - title_surface.get_width() // 2, 70))
 
     # Chargez une image depuis un fichier
-    image = pygame.image.load("assets/images/corde_pendu.png")
+    image = pygame.image.load(os.path.join(assets_dir, "images/corde_pendu.png"))
 
     # Affichez l'image à la position souhaitée
     win.blit(image, (305, 160))
@@ -318,7 +323,7 @@ while running:
                         # Le joueur a perdu toutes ses vies, afficher l'image "fin_00.jpg"
                         if lives <= 0:
                             win.fill(WHITE)
-                            dead_image = pygame.image.load("assets/images/fin_00.jpg")
+                            dead_image = pygame.image.load(os.path.join(assets_dir, "images/fin_00.jpg"))
                             dead_rect = dead_image.get_rect(center=(WIDTH // 2, HEIGHT // 2))
                             win.blit(dead_image, dead_rect.topleft)
                     
