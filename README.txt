@@ -12,7 +12,17 @@ II°) Prérequis
 	- Pygame library (installez avec `pip install pygame`)
 
 III°) Comment jouer
-	1. Exécutez le fichier `Le_pendu_medecine_0.1.py`(sur linux)/`Le_pendu_medecine_0.1.exe`(sur windows) pour lancer le jeu.
+	
+	 1. Pour lancer le jeu sur Ubuntu (linux);
+		Solution 1 :	
+			Ouvrir un terminal, puis entrer les lignes:
+			cd 'chemin où vous avez enregistré le dossier contenant le jeu sur votre ordinateur' (Validez par 'entrer')
+			python3 ./le_pendu_medecine_0.1.py (Validez par "entrer")
+
+	    	Solution 2 (fonctionnelle):
+			Installer VS code sur votr machine, puis les dépendances nécessaire au jeu tel que pygame, random, textwrap via: pip install 'nom du module'.
+			
+	
 	2. Appuyez sur une touche ou cliquez pour commencer le jeu après l'écran de titre.
 	3. Devinez les lettres pour compléter le mot et éviter de perdre des vies.
 	4. Gagnez des images en devinant correctement et en terminant les niveaux bonus.
