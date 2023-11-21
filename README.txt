@@ -1,6 +1,5 @@
 Jeu du Pendu en médecine
 
-
 I°) Description
 	Le jeu "Le_pendu_medecine_0.1.py" est une application simple qui vous permet de jouer au célèbre jeu du pendu. Devinez les mots pour éviter de faire pendre le personnage.
 
