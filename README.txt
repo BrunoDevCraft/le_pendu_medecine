@@ -1,11 +1,8 @@
 Jeu du Pendu en médecine
 
-Attention: Certains antivirus détecte l'exécutable du jeu pour "Windows10" comme un faux postif!
-	   Tester avec "Virustotal.com" le 16/11/2023, sur les 72 antivirus, seul 4 le classe comme suspect dont Avast, Zillya, Bkav Pro, AVG.
-	   Concernant le fichier Le_pendu_medecine_V2.py, ce dernier ayant subi le même test, il n'y a aucun antivirus le détectant comme suspect.
 
 I°) Description
-	Le jeu "Le_pendu_medecine_0.1.exe" est une application simple qui vous permet de jouer au célèbre jeu du pendu. Devinez les mots pour éviter de faire pendre le personnage.
+	Le jeu "Le_pendu_medecine_0.1.py" est une application simple qui vous permet de jouer au célèbre jeu du pendu. Devinez les mots pour éviter de faire pendre le personnage.
 
 II°) Prérequis
 	- Python 3.x
