@@ -1,0 +1,236 @@
+abdomen: partie du corps entre la poitrine et le bassin
+acupuncture: methode de traitement utilisant des aiguilles fines
+allergie: reaction exageree du systeme immunitaire a une substance etrangere
+anatomie: etude de la structure du corps humain
+anesthesie: privation de sensation, souvent utilisee lors de procedures chirurgicales
+antibiotique: medicament utilise pour traiter les infections bacteriennes
+antigene: substance etrangere capable de declencher une reponse immunitaire
+antioxydant: substance qui previent les dommages causes par les radicaux libres
+antiviral: medicament utilise pour traiter les infections virales
+appendicite: inflammation de l appendice
+arthrose: usure du cartilage dans les articulations
+articulation: point de contact entre deux os
+audition: capacite d entendre et de percevoir les sons
+bacterie: micro-organisme unicellulaire
+bouche: partie du visage utilisee pour manger et parler
+bronchite: inflammation des bronches
+calorie: unite d'energie provenant des aliments
+cancer: croissance anormale de cellules avec le potentiel d'envahir d'autres parties du corps
+cataracte: opacification du cristallin de l'oeil
+cellule: unite de base de la vie
+cerveau: organe principal du systeme nerveux central
+chiropractie: methode de traitement se concentrant sur la colonne vertebrale
+chirurgie: intervention medicale impliquant une incision
+coagulation: processus de formation de caillots sanguins
+coeur: organe musculaire qui pompe le sang dans le corps
+colonne vertebrale: serie d'os empiles dans le dos
+constipation: difficulte a evacuer les selles
+cystite: inflammation de la vessie
+defibrillateur: dispositif medical pour restaurer le rythme cardiaque normal
+dent: structure dure dans la bouche utilisee pour manger
+dermatologie: branche de la medecine traitant de la peau
+diabete: trouble metabolique caracterise par un taux eleve de sucre dans le sang
+diagnostic: identification d'une maladie a partir des symptomes
+diarrhee: selles liquides frequentes
+digestion: processus de decomposition des aliments dans le corps
+echographie: imagerie medicale utilisant des ondes sonores
+electrocardiogramme: enregistrement graphique de l'activite electrique du coeur
+embolie pulmonaire: obstruction d'une artere pulmonaire par un caillot sanguin
+endoscopie: examen visuel de l'interieur d'un organe ou d'une cavite
+energie: force necessaire au fonctionnement du corps
+epaule: partie du corps entre le cou et le bras
+epilepsie: trouble neurologique caracterise par des crises convulsives
+eternuement: expulsion soudaine d'air par le nez et la bouche
+exercice: activite physique pour maintenir la forme
+fibromyalgie: syndrome caracterise par des douleurs musculaires et une fatigue
+foie: organe implique dans la digestion et le stockage de l energie
+fracture: rupture d un os
+genetique: etude des genes et de l heredite
+grippe: infection virale respiratoire
+hemoglobine: proteine dans les globules rouges qui transporte l'oxygene
+hernie: saillie d'un organe a travers une ouverture dans la paroi musculaire
+homeopathie: medecine alternative basee sur le principe de la similitude des symptomes
+hopital: etablissement de soins medicaux
+hypertension: pression arterielle elevee
+hypotension: pression arterielle basse
+immunite: resistance du corps aux maladies
+infection: contamination par des micro-organismes
+infirmier: professionnel de la sante fournissant des soins
+inflammation: reponse du corps a une blessure ou une infection
+inhalateur: dispositif pour administrer des medicaments sous forme d'aerosol
+insomnie: difficulte a dormir
+insuline: hormone regulant le taux de sucre dans le sang
+intestin: organe implique dans la digestion
+ischemie: privation d oxygene dans les tissus due a une diminution de l apport sanguin
+jambes: partie inferieure des membres inferieurs
+kinesitherapie: traitement par le mouvement du corps
+kyste: sac ferme contenant du liquide ou une substance semi-solide
+larynx: organe dans la gorge contenant les cordes vocales
+leucocytes: globules blancs du sang impliques dans le systeme immunitaire
+lombalgie: douleur dans la region lombaire de la colonne vertebrale
+lymphocyte: type de leucocyte implique dans la reponse immunitaire
+magnesium: element essentiel pour de nombreuses reactions biochimiques dans le corps
+maladie: alteration de la sante
+mammographie: imagerie medicale pour detecter les anomalies du sein
+medecin: professionnel de la sante qualifie
+medecine alternative: pratiques de soins de sante en dehors de la medecine conventionnelle
+medicament: substance utilisee pour traiter une maladie
+melanome: type de cancer de la peau se developpant a partir des cellules pigmentaires
+metabolisme: ensemble des processus chimiques dans le corps pour maintenir la vie
+microbes: organismes microscopiques, y compris les bacteries et les virus
+migraine: type de cephalee intense souvent accompagnee de nausees et de sensibilite a la lumiere
+morphologie: etude de la forme et de la structure des organismes
+mucosites: secretions visqueuses produites par les muqueuses
+muscle: tissu contractile permettant le mouvement
+myocarde: muscle cardiaque
+narcolepsie: trouble du sommeil caracterise par une somnolence excessive pendant la journee
+nephrite: inflammation des reins
+nephrologie: etude des reins et de leurs maladies
+neurologie: etude du systeme nerveux
+neutrophiles: type de leucocyte implique dans la reponse immunitaire
+nevralgie: douleur le long du trajet d un nerf
+nevrologie pediatrique: etude des troubles neurologiques chez les enfants
+nourrisson: bebe de moins d un an
+nutrition: apport d aliments pour la croissance et la sante
+obesite: exces de poids corporel pouvant avoir des consequences sur la sante
+oligosaccharides: chaines courtes de glucides
+ophtalmologie: branche de la medecine traitant des yeux
+ophtalmologiste: medecin specialise dans les troubles oculaires
+orthopedie: branche de la medecine traitant des troubles du systeme musculosquelettique
+os: structure solide constituant le squelette
+oxygenation: fourniture d oxygene aux tissus du corps
+palpitations: sensation de battements cardiaques irreguliers ou forts
+pandemie: epidemie mondiale d une maladie
+parasite: organisme qui vit aux depens d un autre
+pathologie: etude des maladies
+pediatrie: branche de la medecine traitant des enfants
+pharmacie: science et pratique de la preparation et de la dispensation de medicaments
+phlebite: inflammation d une veine, generalement dans les jambes
+phobie: peur intense et irrationnelle
+phytotherapie: utilisation de plantes medicinales a des fins therapeutiques
+pneumonie: inflammation des poumons
+polyarthrite rhumatoide: maladie inflammatoire affectant les articulations
+pouls: battements du coeur par minute
+poumon: organe respiratoire
+pression: force exercee sur une surface
+prevention: mesures visant a empecher l apparition d une maladie
+probiotiques: micro-organismes benefiques pour la sante intestinale
+progesterone: hormone feminine impliquee dans le cycle menstruel et la grossesse
+prostate: glande masculine situee autour de l uretre
+prothese: dispositif artificiel utilise pour remplacer une partie du corps
+psychiatrie: branche de la medecine traitant des troubles mentaux
+psychologie: etude des processus mentaux et du comportement
+psychotherapie: traitement des troubles mentaux par la parole et les emotions
+pulmonaire: lie aux poumons
+pustule: petite elevation de la peau contenant du pus
+pyrexie: elevation de la temperature corporelle, fievre
+quadriplegie: paralysie des quatre membres
+quarantaine: isolement de personnes exposees a une maladie contagieuse
+radiologie: utilisation d images pour diagnostiquer les maladies
+radiotherapie: traitement medical utilisant des rayonnements ionisants
+regeneration: processus de renouvellement des tissus ou des organes
+regime: habitudes alimentaires specifiques
+reins: organes eliminant les dechets du sang
+remission: periode sans symptomes de maladie
+respiration: processus d inhalation et d exhalation
+retine: partie de l oeil sensible a la lumiere, convertissant les images en signaux nerveux
+rhumatisme: douleur et inflammation des articulations, des os ou des muscles
+rhume: infection virale des voies respiratoires superieures
+saignement: perte de sang
+sang: liquide circulant dans le corps
+sante: etat de bien-etre physique et mental
+sedatif: medicament qui calme ou induit le sommeil
+serum: liquide biologique derive du sang, riche en anticorps
+sida: syndrome d immunodeficience acquise cause par le VIH
+soins palliatifs: soins visant a soulager les symptomes sans guerir la maladie
+somatique: relatif au corps
+sommeil: etat de repos du corps et de l esprit
+spondylarthrite ankylosante: maladie inflammatoire affectant la colonne vertebrale
+squelette: structure osseuse de soutien du corps
+sterilisation: methode visant a rendre incapable de reproduire
+sterilite: incapacite de concevoir
+stethoscope: instrument medical pour ecouter les sons internes du corps
+stress: pression emotionnelle ou physique
+stress oxydatif: desequilibre entre la production de radicaux libres et les mecanismes de defense
+syncope: perte de connaissance temporaire
+syndrome: ensemble de symptomes caracteristiques d une maladie specifique
+systeme cardiovasculaire: ensemble du coeur et des vaisseaux sanguins
+systeme digestif: ensemble des organes impliques dans la digestion
+systeme endocrinien: ensemble des glandes produisant des hormones
+systeme immunitaire: defense naturelle du corps contre les maladies
+systeme immunitaire adaptatif: reponse immunitaire specifique a chaque pathogene
+systeme immunitaire inne: premiere ligne de defense du corps contre les infections
+systeme lymphatique: reseau de vaisseaux et de ganglions lymphatiques
+systeme musculaire: ensemble des muscles permettant le mouvement
+systeme nerveux: reseau complexe de nerfs et de cellules
+systeme nerveux peripherique: reseau de nerfs a l exterieur du systeme nerveux central
+systeme reproducteur: organes impliques dans la reproduction
+systeme respiratoire: organes impliques dans la respiration
+systeme squelettique: ensemble des os formant le squelette
+systeme urinaire: organes impliques dans l elimination des dechets
+tabagisme: consommation de tabac, souvent par le biais de cigarettes
+tachycardie: rythme cardiaque rapide
+temperature: mesure de la chaleur du corps
+tension arterielle: pression du sang sur les parois des arteres
+tension arterielle diastolique: pression minimale entre les battements cardiaques
+tension arterielle systolique: pression maximale exercee sur les parois des arteres
+therapie: traitement medical ou psychologique
+therapie cognitivo-comportementale: approche psychotherapeutique axee sur les pensees et les comportements     
+therapie genique: traitement medical utilisant la manipulation genetique
+thrombocytopenie: nombre anormalement bas de plaquettes dans le sang
+thrombose: formation de caillots sanguins dans les vaisseaux
+thrombus: caillot sanguin qui bloque une artere ou une veine
+thyroide: glande endocrine produisant des hormones regulant le metabolisme
+thyroidectomie: ablation chirurgicale de la glande thyroide
+thyroidite: inflammation de la glande thyroide
+tissu conjonctif: tissu qui soutient, lie et protege les organes du corps
+toxicologie: etude des poisons et de leurs effets
+toxicomanie: dependance a des substances nocives
+toxine: substance nocive produite par un organisme vivant
+trachee: conduit respiratoire reliant la gorge aux poumons
+transfusion sanguine: transfert de sang d un donneur a un receveur
+traumatisme: blessure physique ou emotionnelle
+triglycerides: forme de graisse stockee dans les cellules adipeuses
+trisomie: presence d un chromosome surnumeraire
+tuberculose: infection bacterienne affectant principalement les poumons
+tumeur: croissance anormale de cellules
+tumeur benigne: croissance non cancereuse de cellules
+tumeur maligne: croissance cancereuse de cellules, cancer
+ulceration gastrique: plaie dans la paroi de l estomac
+ulcere: plaie ouverte sur la peau ou les muqueuses
+ulcere gastro-duodenal: plaie ouverte dans la paroi de l estomac ou du duodenum
+ultrason: ondes sonores a frequence elevee utilisees en imagerie medicale
+urgence medicale: situation necessitant une intervention medicale immediate
+urine: liquide excrete par les reins
+urologie: branche de la medecine traitant des troubles du systeme urinaire
+urologie pediatrique: branche de la medecine traitant des troubles urologiques chez les enfants
+vaccin: substance stimulant l immunite contre une maladie specifique
+vaccin a ARNm: vaccin utilisant l ARN messager pour stimuler l immunite
+vaccin antigrippal: vaccin visant a prevenir la grippe
+vaccination: administration de vaccins pour prevenir les maladies
+vasculaire: lie aux vaisseaux sanguins
+vascularite: inflammation des vaisseaux sanguins
+vehicule d urgence: ambulance ou vehicule transportant des soins medicaux d urgence
+veine: vaisseau sanguin transportant le sang vers le coeur
+velocardiofacial: syndrome genetique affectant le coeur, le visage et d autres parties du corps
+ventricule: chambre du coeur responsable du pompage du sang
+ventricule cardiaque: cavite du coeur responsable de la circulation sanguine
+ventricule cerebral: cavite dans le cerveau remplie de liquide cerebrospinal
+vertebre: os de la colonne vertebrale
+virus: agent infectieux compose de materiel genetique entoure d une enveloppe proteique
+virus de l immunodeficience humaine (VIH): virus causant le sida
+virus informatique: programme nuisible pour les ordinateurs
+vision: capacite de voir
+vitamine: compose essentiel a la croissance et au developpement
+vitamine C: nutriment essentiel pour le systeme immunitaire
+vitamine D: essentielle pour la sante des os et du systeme immunitaire
+vitamine E: antioxydant essentiel pour la sante cellulaire
+voies respiratoires: chemin que l air prend lors de l inhalation et de l exhalation
+voies respiratoires superieures: passages nasaux, gorge, larynx, trachee
+xenogreffe: transplantation d organes entre especes differentes
+xylocaine: anesthesique local utilise en chirurgie
+yeux: organes de la vision
+zinc: element nutritif essentiel pour le corps
+zygomatiques: os de la face formant les pommettes
+zymogen: forme inactive d une enzyme, necessitant une activation
+zymologie: etude des enzymes dans les processus biologiques

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Le Pendu — Médecine</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════ TITLE SCREEN -->
+  <div id="screen-title" class="screen active">
+    <div class="title-bg-grid"></div>
+    <div class="title-content">
+      <div class="title-emblem">
+        <svg viewBox="0 0 80 80" class="caducee">
+          <line x1="40" y1="5" x2="40" y2="75" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M25,20 Q55,30 25,45 Q55,55 40,70" fill="none" stroke="currentColor" stroke-width="2" opacity="0.7"/>
+          <path d="M55,20 Q25,30 55,45 Q25,55 40,70" fill="none" stroke="currentColor" stroke-width="2" opacity="0.7"/>
+          <circle cx="40" cy="10" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </div>
+      <h1 class="title-main">Le Pendu</h1>
+      <p class="title-sub">Médecine &amp; Anatomie</p>
+      <div class="title-divider"></div>
+      <p class="title-prompt">Cliquer ou appuyer sur une touche pour commencer</p>
+      <div class="title-pulse"></div>
+    </div>
+    <div class="title-footer">v0.2 · BrunoDevCraft · MIT</div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ GAME SCREEN -->
+  <div id="screen-game" class="screen">
+    <div class="game-header">
+      <div class="hud-score">
+        <span class="hud-label">Score</span>
+        <span id="score-value" class="hud-number">0</span>
+      </div>
+      <div class="hud-victories">
+        <span class="hud-label">Victoires</span>
+        <span id="victories-value" class="hud-number">0</span>
+      </div>
+      <div class="hud-lives">
+        <span class="hud-label">Vies</span>
+        <div id="lives-icons" class="lives-hearts"></div>
+      </div>
+      <button id="btn-sound" class="btn-icon" title="Son">🔊</button>
+      <button id="btn-menu" class="btn-icon" title="Menu">✕</button>
+    </div>
+
+    <div class="game-body">
+      <!-- Gallows -->
+      <div class="gallows-panel">
+        <svg id="gallows-svg" viewBox="0 0 260 320" class="gallows-svg">
+          <!-- Structure -->
+          <line x1="20" y1="310" x2="240" y2="310" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+          <line x1="60" y1="310" x2="60" y2="30"  stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+          <line x1="60" y1="30"  x2="160" y2="30"  stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+          <line x1="160" y1="30" x2="160" y2="60"  stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/>
+          <!-- Head -->
+          <circle id="g-head" cx="160" cy="78" r="18" fill="none" stroke="var(--ink)" stroke-width="2.5" class="g-part hidden"/>
+          <!-- Body -->
+          <line id="g-body" x1="160" y1="96" x2="160" y2="175" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round" class="g-part hidden"/>
+          <!-- Left arm -->
+          <line id="g-arm-l" x1="160" y1="115" x2="130" y2="150" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round" class="g-part hidden"/>
+          <!-- Right arm -->
+          <line id="g-arm-r" x1="160" y1="115" x2="190" y2="150" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round" class="g-part hidden"/>
+          <!-- Left leg -->
+          <line id="g-leg-l" x1="160" y1="175" x2="130" y2="220" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round" class="g-part hidden"/>
+          <!-- Right leg -->
+          <line id="g-leg-r" x1="160" y1="175" x2="190" y2="220" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round" class="g-part hidden"/>
+        </svg>
+        <div id="attempts-counter" class="attempts-badge">0 / 6</div>
+      </div>
+
+      <!-- Word & Clue -->
+      <div class="word-panel">
+        <div id="word-display" class="word-display"></div>
+        <div class="clue-label">Définition</div>
+        <div id="definition-display" class="definition-display"></div>
+        <div class="wrong-letters-label">Lettres incorrectes :</div>
+        <div id="wrong-letters" class="wrong-letters"></div>
+      </div>
+    </div>
+
+    <!-- Keyboard -->
+    <div id="keyboard" class="keyboard"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ RESULT SCREEN -->
+  <div id="screen-result" class="screen">
+    <div class="result-content">
+      <div id="result-icon" class="result-icon"></div>
+      <h2 id="result-title" class="result-title"></h2>
+      <p id="result-word" class="result-word"></p>
+      <p id="result-definition" class="result-def"></p>
+      <div class="result-buttons">
+        <button id="btn-continue" class="btn-primary">Continuer</button>
+        <button id="btn-quit" class="btn-secondary">Quitter</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ BONUS SCREEN -->
+  <div id="screen-bonus" class="screen">
+    <div class="bonus-content">
+      <div class="bonus-badge">Niveau terminé !</div>
+      <h2 id="bonus-title" class="bonus-title"></h2>
+      <div id="bonus-image-zone" class="bonus-image-zone">
+        <div class="bonus-image-placeholder">
+          <svg viewBox="0 0 200 150" width="200">
+            <rect width="200" height="150" rx="8" fill="var(--surface2)"/>
+            <text x="100" y="85" text-anchor="middle" fill="var(--text-muted)" font-size="13" font-family="Crimson Pro">
+              assets/images/niveau_0X.jpg
+            </text>
+          </svg>
+          <p class="bonus-image-hint">Placez vos images dans <code>assets/images/</code></p>
+        </div>
+      </div>
+      <p id="bonus-stats" class="bonus-stats"></p>
+      <div class="bonus-buttons">
+        <button id="btn-bonus-yes" class="btn-primary">Continuer 🎯</button>
+        <button id="btn-bonus-no" class="btn-secondary">Quitter</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ GAME OVER SCREEN -->
+  <div id="screen-gameover" class="screen">
+    <div class="gameover-content">
+      <div class="gameover-skull">💀</div>
+      <h2 class="gameover-title">Partie terminée</h2>
+      <p class="gameover-sub">Vous avez utilisé toutes vos vies.</p>
+      <div id="gameover-stats" class="gameover-stats"></div>
+      <button id="btn-restart" class="btn-primary">Recommencer</button>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ TOAST -->
+  <div id="toast" class="toast"></div>
+
+  <script src="js/words.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

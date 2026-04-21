@@ -1,0 +1,17 @@
+{
+  "_info": {
+    "version": "1.0",
+    "description": "Dictionnaire médical — Le Pendu Médecine v0.2",
+    "author": "BrunoDevCraft",
+    "usage": "Ce fichier est un complément optionnel. Le jeu utilise js/words.js par défaut. Pour charger ce fichier dynamiquement, décommentez le code dans js/game.js (section loadDictionary).",
+    "format": "Tableau d'objets { word, definition, category }"
+  },
+  "words": [
+    { "word": "abdomen",       "definition": "Partie du corps comprise entre la poitrine et le bassin", "category": "Anatomie" },
+    { "word": "antibiotique",  "definition": "Médicament détruisant ou inhibant la croissance des bactéries", "category": "Pharmacologie" },
+    { "word": "cancer",        "definition": "Prolifération incontrôlée de cellules anormales pouvant envahir les tissus voisins", "category": "Pathologie" },
+    { "word": "diabete",       "definition": "Trouble métabolique caractérisé par une hyperglycémie chronique", "category": "Pathologie" },
+    { "word": "epidemie",      "definition": "Propagation rapide d'une maladie infectieuse à un grand nombre de personnes dans une région donnée", "category": "Santé publique" }
+  ],
+  "_note": "Liste complète disponible dans js/words.js (160+ entrées). Ce fichier JSON peut être enrichi et chargé via fetch() pour remplacer le dictionnaire intégré."
+}
